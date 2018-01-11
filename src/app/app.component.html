@@ -1,0 +1,22 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome to {{title}}!
+  </h1>
+
+  <!-- app-projector is a presentataion component pulling information from the projector.component.html -->
+  <app-projector>
+    <!-- proj-body is an atrribute referenced by the projection.component.html -->
+    <div proj-body>Body text
+      <p></p>
+      <button>You can put anything you want in here</button>
+      <p></p>
+    </div>
+    <div proj-stuff>Other stuff</div>
+    <p></p>
+    <!-- this atribute name is not referenced in the projector.component.html and is therefore not displayed to the UI -->
+    <div proj-no-display>Stuff that will not display</div>
+  </app-projector>
+
+  <p></p>
+  <div>Footer</div>
